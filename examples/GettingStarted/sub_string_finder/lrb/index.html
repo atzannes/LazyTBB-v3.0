@@ -1,0 +1,37 @@
+<HTML>
+<BODY>
+
+<H2>Overview</H2>
+A simple example that demonstrates running a TBB application on the LRB device.
+For more information please see our <A HREF="http://ors-avc-dev001.intel.com/lrbwiki/index.php?title=Threading_Runtimes_for_LRB">wiki page</A>.
+
+<H2>Files</H2>
+<DL>
+<DT><A HREF="sub_string_finder_host.cpp">sub_string_finder_host.cpp</A>
+<DD>Host side that loads the example code onto the device, and launches it.
+<DT><A HREF="sub_string_finder_lrb.cpp">sub_string_finder_lrb.cpp</A>
+<DD>Device side wrapper for the "ordinary" sub_string_finder example.
+<DT><A HREF="sub_string_finder.sln">sub_string_finder.sln</A>
+<DD>Contains Microsoft* Visual Studio* 2008 workspace for building and running the example.
+<DT><A HREF="lrb.mak">lrb.mak</A>
+<DD>Internal makefile for the workspace to build the device-side binary with cross-compiler.
+</DL>
+
+<H2>To Build</H2>
+General build directions can be found <A HREF=../../index.html#build>here</A>.
+This example supports only Microsoft* Visual Studio* 2008.
+Please, make sure that TBB30_INSTALL_DIR is set properly on your system.
+
+<HR>
+<A HREF="../index.html">Up to parent directory</A>
+<p></p>
+Copyright &copy; 2005-2010 Intel Corporation.  All Rights Reserved.
+<p></p>
+Intel, Pentium, Intel Xeon, Itanium, Intel XScale and VTune are 
+registered trademarks or trademarks of Intel Corporation or its 
+subsidiaries in the United States and other countries. 
+<p></p>
+* Other names and brands may be claimed as the property of others.
+</BODY>
+</HTML>
+

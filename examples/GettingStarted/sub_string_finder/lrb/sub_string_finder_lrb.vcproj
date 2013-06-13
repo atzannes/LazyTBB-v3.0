@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<VisualStudioProject
+	ProjectType="Visual C++"
+	Version="9.00"
+	Name="sub_string_finder_lrb"
+	ProjectGUID="{338D3306-11C1-4907-B9C6-42543162D19E}"
+	RootNamespace="sub_string_finder_lrb"
+	TargetFrameworkVersion="131072"
+	>
+	<Platforms>
+		<Platform
+			Name="x64"
+		/>
+	</Platforms>
+	<ToolFiles>
+	</ToolFiles>
+	<Configurations>
+		<Configuration
+			Name="Debug|x64"
+			OutputDirectory=".\"
+			IntermediateDirectory="$(ProjectName)64d"
+			ConfigurationType="0"
+			CharacterSet="1"
+			DeleteExtensionsOnClean="*.obj;*.o;*.tlb;*.tli;*.tlh;*.tmp;*.rsp;*.pgc;*.pgd;$(TargetPath)"
+			>
+			<Tool
+				Name="VCNMakeTool"
+				BuildCommandLine="nmake /NOLOGO INTDIR=$(IntDir) OUTDIR=$(OutDir) CONFIG=$(ConfigurationName) TARGET=$(InputName) lrb.mak"
+				ReBuildCommandLine="if exist $(IntDir)\*.o del $(IntDir)\*.o&#x0D;&#x0A;nmake /NOLOGO INTDIR=$(IntDir) OUTDIR=$(OutDir) CONFIG=$(ConfigurationName) TARGET=$(InputName) lrb.mak"
+				CleanCommandLine="if exist $(IntDir)\*.o del $(IntDir)\*.o"
+				Output="$(OutDir)\$(InputName)64d.so"
+				PreprocessorDefinitions=""
+				IncludeSearchPath=""
+				ForcedIncludes=""
+				AssemblySearchPath=""
+				ForcedUsingAssemblies=""
+				CompileAsManaged=""
+			/>
+		</Configuration>
+		<Configuration
+			Name="Release|x64"
+			OutputDirectory=".\"
+			IntermediateDirectory="$(ProjectName)64r"
+			ConfigurationType="0"
+			CharacterSet="1"
+			DeleteExtensionsOnClean="*.obj;*.o;*.tlb;*.tli;*.tlh;*.tmp;*.rsp;*.pgc;*.pgd;$(TargetPath)"
+			WholeProgramOptimization="1"
+			>
+			<Tool
+				Name="VCNMakeTool"
+				BuildCommandLine="nmake /NOLOGO INTDIR=$(IntDir) OUTDIR=$(OutDir) CONFIG=$(ConfigurationName) TARGET=$(InputName) lrb.mak"
+				ReBuildCommandLine="if exist $(IntDir)\*.o del $(IntDir)\*.o&#x0D;&#x0A;nmake /NOLOGO INTDIR=$(IntDir) OUTDIR=$(OutDir) CONFIG=$(ConfigurationName) TARGET=$(InputName) lrb.mak"
+				CleanCommandLine="if exist $(IntDir)\*.o del $(IntDir)\*.o"
+				Output="$(OutDir)\$(InputName)64r.so"
+				PreprocessorDefinitions=""
+				IncludeSearchPath=""
+				ForcedIncludes=""
+				AssemblySearchPath=""
+				ForcedUsingAssemblies=""
+				CompileAsManaged=""
+			/>
+		</Configuration>
+	</Configurations>
+	<References>
+	</References>
+	<Files>
+		<File
+			RelativePath=".\lrb.mak"
+			>
+		</File>
+		<File
+			RelativePath="..\sub_string_finder_extended.cpp"
+			>
+		</File>
+		<File
+			RelativePath=".\sub_string_finder_lrb.cpp"
+			>
+		</File>
+	</Files>
+	<Globals>
+	</Globals>
+</VisualStudioProject>

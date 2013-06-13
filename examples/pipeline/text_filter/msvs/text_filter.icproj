@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<VisualStudioProject
+	ProjectType="Intel C++ Project"
+	Version="11.1"
+	Name="text_filter"
+	ProjectGUID="{706385C6-5DDB-44C2-AAFA-CADB76A7BE7A}"
+	VCNestedProjectGUID="{C931C7A2-074E-4150-9E7A-39A03250411D}"
+	VCNestedProjectFileName="text_filter.vcproj">
+	<Configurations/>
+	<Files/>
+</VisualStudioProject>
