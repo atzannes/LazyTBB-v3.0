@@ -18,7 +18,7 @@ __TBB_LAZY_DF_EXECUTION
 * Executes the lazy scheduler and splits or pushes the current (most deeply nested) task.
 
 TBB_NARY_SYNC
-I was experimenting with an alternative synchronization approach for parallel loops and reducers. I didn't find any advantage or disadvantage using it. So I abandonned it. Kept just for reference.
+I was experimenting with an alternative synchronization approach for parallel loops and reducers. I didn't find any advantage or disadvantage using it. So I abandoned it. Kept just for reference.
 
 NOTES:
 Lazy Scheduling is intended to be used with Simple Partitioner, as AutoPartitioner would check the deque too infrequently.
